@@ -1,0 +1,12 @@
+.ingenieria{
+    color: blue; 
+    font: size 20px;
+    font-style: unset;
+    font-family: 'Times New Roman', Times, serif;
+}
+.salud{
+    color: yellow;
+    font: size 50px;
+    font-style: initial;
+    font-family: Arial, Helvetica, sans-serif;
+}

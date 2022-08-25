@@ -1,0 +1,23 @@
+#sistemas{
+    color: violet;
+    font-size: 20px;
+    font-weight: 200;
+}
+
+#minas{
+    color: brown;
+    font-size: 30px;
+    font-weight: 300;
+}
+
+#medicina{
+    color: tomato;
+    font-size: large;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+}
+
+#odontologia{
+    color: turquoise;
+    font-size: larger;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+}
