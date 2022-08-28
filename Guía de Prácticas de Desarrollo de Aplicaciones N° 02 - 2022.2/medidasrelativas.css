@@ -1,0 +1,17 @@
+
+h1 + p {
+    margin: 0.8em 9em ;
+}
+.carreras{
+    margin: 0 2.5em;
+}
+
+.Ingenierias {
+    font-size: 2em;
+}
+
+.Salud + p {
+    font-size: 1.2rem;
+    margin:  0.8rem 2.5rem;
+    text-align: justify;
+}

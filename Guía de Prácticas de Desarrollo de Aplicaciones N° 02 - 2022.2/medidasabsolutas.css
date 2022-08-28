@@ -1,0 +1,31 @@
+h1{
+    color:green;
+    font-size: 50px;
+    margin: 0 180px;
+
+}
+h1 + p {
+    font-size: 15px;
+
+}
+.carreras{
+    font-size: 18px;
+}
+
+.Ingenierias {
+    margin: 2pc;
+}
+
+.Ingenierias + p {
+    font-size: 1.2pc;
+    margin:  1pc 2.5pc;
+    text-align: justify;
+}
+
+p + ul {
+    margin: 0 20mm;
+}
+.Salud {
+    font-size:  27pt;
+    margin: 0 27pt;
+}
