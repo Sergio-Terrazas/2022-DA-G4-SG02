@@ -1,0 +1,17 @@
+#Medicina {
+    opacity: .5;
+    color: hsl(120, 100%, 25%);
+    margin: 2pc;
+    font-size: 2em;
+}
+#Medicina + p {
+    color: hsl(120, 36%, 13%);
+    font-size: 1.2pc;
+    margin:  1pc 2.5pc;
+    text-align: justify;
+}
+
+#MMedicina {
+    color:hsl(0, 0%, 41%);
+    margin: 0 10mm;
+}

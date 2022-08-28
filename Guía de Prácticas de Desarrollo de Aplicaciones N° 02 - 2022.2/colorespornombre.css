@@ -1,0 +1,17 @@
+h1{
+    color: green;
+    font-size: 50px;
+    margin: 0 180px;
+}
+
+h1 + p {
+    color: darkgray;
+    font-size: 15px;
+    margin: 0.8em 9em ;
+}
+
+.carreras {
+    color: dimgray;
+    margin: 30px 65px ;
+    font-size: 18px;
+}

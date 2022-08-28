@@ -1,0 +1,19 @@
+#Odontologia {
+    opacity: .5;
+    color: #008000;
+    margin: 2pc;
+    font-size: 2em;
+}
+#Odontologia + p {
+    opacity: 75%;
+    color: rgb(21, 45, 21);
+    font-size: 1.2pc;
+    margin:  1pc 2.5pc;
+    text-align: justify;
+}
+
+#OOdontologia {    
+    opacity: 65%;
+    color:hsl(0, 0%, 41%);
+    margin: 0 10mm;
+}

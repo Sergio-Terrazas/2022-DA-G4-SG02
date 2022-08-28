@@ -1,0 +1,16 @@
+#Sistemas {
+    color: rgb(255, 0, 0);
+    margin: 2pc;
+    font-size: 2em;
+}
+#Sistemas + p {
+    color: rgb(122, 111, 111);
+    font-size: 1.2pc;
+    margin:  1pc 2.5pc;
+    text-align: justify;
+}
+
+#SSistemas {
+    color:rgb(105, 105, 105);
+    margin: 0 10mm;
+}

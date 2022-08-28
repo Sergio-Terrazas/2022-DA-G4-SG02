@@ -1,0 +1,16 @@
+#Minas {
+    color: #ff0000;
+    margin: 2pc;
+    font-size: 2em;
+}
+#Minas + p {
+    color: #7a6f6f;
+    font-size: 1.2pc;
+    margin:  1pc 2.5pc;
+    text-align: justify;
+}
+
+#MMinas {
+    color:#696969;
+    margin: 0 10mm;
+}
