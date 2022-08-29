@@ -1,3 +1,4 @@
+
 ul li {
     font-weight: 200;
 }
@@ -25,7 +26,9 @@ p, li{
 div > ul{
     text-align: justify;
 } 
+/*
 ul > li {
     color: black;
     margin: 10px 40px ;
-}
+}*/
+

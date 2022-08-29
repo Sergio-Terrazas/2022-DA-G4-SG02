@@ -1,0 +1,8 @@
+
+h2 [class$="ud"]{
+    background-color: #ffff00;
+}
+h2 [class^="Inge"]{
+    background-color: #ffff00;
+}
+
