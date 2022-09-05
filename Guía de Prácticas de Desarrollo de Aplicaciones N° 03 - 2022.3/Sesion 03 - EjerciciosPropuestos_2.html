@@ -1,0 +1,94 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>UCSM</title>
+    <style>
+        .title {
+            background-color: black;
+            color: white;
+            text-align: center;
+            border: 20px solid black;
+        }
+
+        .Carreras{
+            background-color: rgb(239, 239, 247);
+            display:flex;
+            flex-direction: row;
+            justify-content: center;
+        }
+
+        .Carreras div{
+            font-family:'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+            margin: 10px;
+            text-align: center;
+            background-color: white;
+            border: 3px solid rgb(223, 221, 221);
+            width: 400px;
+            height: 320px;
+        }
+        .Carreras p{
+            text-align: justify;
+            margin: auto 15px;
+        }
+
+        button{
+            margin: 5px;
+            border: 3px solid rgb(224, 213, 213);
+            color: white;
+            background-color: rgb(212, 199, 199);
+        }
+        @media only screen and (max-width: 600px) {
+            .Carreras {
+            display:flex;
+            flex-direction:column;
+            }
+            .Carreras div{
+            width: 350px;
+            height: 300px;
+            }
+        }
+    </style>
+    
+</head>
+
+<body>
+    <div class="contenido">
+        <div class="title">
+            <p>BIENVENIDO A LA PAGINA</p>
+            <h1>UNIVERSIDAD CATOLICA DE SANTA MARIA</h1>
+            <button onclick="location.href='https://www.ucsm.edu.pe/'"><b>UCSM</b></button>
+        </div>
+        <div class="Carreras">
+            <div>
+                <h2>Ingenieria de Sistemas</h2>
+                <img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQYEmSE9J72qXG3dLByWKs1IOvpVXjeUW7vTIfzJBa0J4q_8zmLMB-HIlzpWKXyyxiBgFM&usqp=CAU"  width="128" height="128">
+                <p>Si te interesa la tecnología y quieres usarla para darle mayor valor 
+                    a las personas e instituciones a partir de la explotación de la información, 
+                    este es tu camino</p>
+            </div>
+
+            <div>
+                <h2>Ingenieria de Minas</h2>
+                <img src="https://provodit.es/wp-content/uploads/2021/10/formacion.png" width="128" height="128">
+                <p>Si quieres ser un explorador y descubrir tu talento en minería, esta carrera es para ti.</p>
+            
+            </div>
+            
+            <div>
+                <h2>Medicina</h2>
+                <img src="https://pbs.twimg.com/profile_images/594982387798388736/8moK1vmv_400x400.jpg" width="128" height="128">
+                <p>Si quieres cuidar la vida y velar por la salud de las personas, esta carrera es para ti.
+
+                </p>    
+            </div>
+        </div>
+        
+    </div>
+    
+    
+</body>
+
+</html>

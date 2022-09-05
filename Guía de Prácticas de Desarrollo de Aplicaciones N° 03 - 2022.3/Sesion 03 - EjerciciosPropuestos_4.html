@@ -1,0 +1,78 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style>
+        h1 {
+            color:white;
+            text-align: center;
+        }
+        .item1 { 
+            grid-area: Z1; 
+            background-color:mediumseagreen;
+            color: mediumseagreen;
+        }
+        .item2 { 
+            grid-area: Z2;
+            background-color: darkcyan;
+            color:darkcyan; 
+        }
+        .item3 { 
+            grid-area: Z3; 
+            background-color: chocolate;
+            color: chocolate;
+        }
+        .item4 { 
+            grid-area: Z4; 
+            background-color: darkgreen;
+            color: darkgreen;
+            
+        }
+        .item5 { 
+            grid-area: Z5; 
+            background-color: indianred;
+            color: indianred;
+        }
+        .item6 {
+            grid-area: Z6;
+            background-color: darkolivegreen;
+            color: darkolivegreen;
+        }
+        
+        .grid-container {
+          display: grid;
+          grid-template:
+            'Z1 Z1 Z2 Z2 Z2'
+            'Z1 Z1 Z3 Z3 Z4'
+            'Z5 Z5 Z3 Z3 Z6';
+          grid-gap: 15px;
+          background-color: purple;
+          padding: 0px;
+          width: auto;
+          justify-content: center;
+        
+        }
+        
+        .grid-container > div {
+            text-align: center;
+            font-size: 80px;
+            border-radius: 20px 20px 20px 20px;
+        }
+    </style>
+</head>
+<body bgcolor="purple">
+    <h1>Ejercicio 4</h1>
+    <div class="grid-container">
+        <div class="item1">Zona 1</div>
+        <div class="item2">Zona 2</div>
+        <div class="item3">Zona 3</div>  
+        <div class="item4">Zona 4</div>
+        <div class="item5">Zona 5</div>
+        <div class="item6">Zona 6</div>
+      </div>
+      
+</body>
+</html>

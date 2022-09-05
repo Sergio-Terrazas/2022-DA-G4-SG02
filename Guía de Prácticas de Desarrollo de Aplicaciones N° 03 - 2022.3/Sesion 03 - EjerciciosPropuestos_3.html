@@ -1,0 +1,156 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style>
+        .Cabecera{
+            display: flex;
+            flex-direction: row;
+            background-color: rgb(93, 16, 165);
+            justify-content: center;
+            color: white;
+            height: 40px;
+
+        }
+
+        .Cabecera p {
+            width: 300px;
+            text-align: center;
+            font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+        }
+        .titulo {
+            text-align: center;
+            height: 30px;
+            margin: 20px;
+        }
+
+        .Contenido {
+            justify-content: center;
+            display: flex;
+            flex-wrap: wrap;
+
+            
+        }
+        .Contenido div{
+            text-align: center;
+            width: 360px;
+            height: 425px;
+            margin: 20px 20px;
+        }
+        .Contenido p {
+            margin: 10px 15px;
+        }
+        .Pago{
+            background-color: rgb(26, 163, 163);
+            border: 10px solid rgb(26, 163, 163);
+        }
+        .Costo {
+            display: flex;
+            justify-content: space-around;
+            width: 80px;
+            height: 15px;
+            border-radius:50px 50px 50px 50px ;
+            background-color: rgb(231, 221, 221);
+            border: 3px solid rgb(231, 221, 221);
+        }
+        #opc1 {
+            display: flex;
+            align-items: flex-end;
+            justify-content: space-between;
+            width: 320px;
+            height: 80px;
+        }
+        #opc2 {
+            display: flex;
+            align-items: flex-end;
+            justify-content: space-between;
+            width: 320px;
+            height: 55px;
+        }
+        #opc3 {
+            display: flex;
+            align-items: flex-end;
+            justify-content: space-between;
+            width: 320px;
+            height: 30px;
+        }
+        #opc4 {
+            display: flex;
+            align-items: flex-end;
+            justify-content: space-between;
+            width: 320px;
+            height: 80px;
+        }
+    </style>
+</head>
+<body>
+    <div class="Pagina">
+        <div class="Cabecera">
+            <p><img src="https://freeiconshop.com/wp-content/uploads/edd/eye-outline.png" width="20px" height="17px"></p>
+            <p>CAMERAS</p>
+            <p>ABOUT</p>
+            <p>CONTACT</p>
+        </div>
+        <div class="titulo">
+            <h1>CAMERAS</h1>
+        </div>
+
+        <div class="Contenido">
+            <div>
+                <img src="https://activosbolivia.com/wp-content/uploads/2021/03/Celulares-1-1024x576.jpg" width="310px" height="165px">
+                <h2>Smartphone</h2>
+                <p>The best camera is the one that you carry 24/7</p>
+                <div id="opc1">
+                    <p class="Costo">Price: 450$</p>
+                    <p class="Costo">In Stock</p>  
+                </div>
+                <p class="Pago">ADD TO CARD</p>
+                
+            </div>
+            <div>
+                <img src="https://pyxis.nymag.com/v1/imgs/7fb/d53/d3714c7cd59a9733d1634eb7139f81df81-polaroid-600-camera.jpg" width="310px" height="165px">
+                <h2>Some Old Polaroid Camera That Produces Hipstery Effects</h2>
+                <p>Get Hipstery Effects</p>
+                <div id="opc2">
+                    <p class="Costo">Price: 450$</p>
+                    <p class="Costo">In Stock</p>
+                </div>
+                <p class="Pago">ADD TO CARD</p>
+            </div>
+            <div>
+                <img src="https://i.blogs.es/4f21b3/650_1000_blackangled/450_1000.jpg" width="310px" height="165px">
+                <h2>GoPro Hero 4 Silver</h2>
+                <p>GoPro is de facto choice for anyone interested un extreme sports.
+                    The camera has video, photo and timelapse modes, and the low-light
+                    capabilities are exceptional.
+                </p>
+                <div id="opc3">
+                    <p class="Costo">Price: 450$</p>
+                    <p class="Costo">In Stock</p>
+                </div>
+                
+                <p class="Pago">ADD TO CARD</p>
+            </div>
+            <div>
+                <img src="https://m.decamaras.com/imagen/camaras18/250/gopro-hero7-silver.jpg" width="310px" height="165px">
+                <h2>GoPro Hero 8 Silver</h2>
+                <p>GoPro is de facto choice for anyone interested un extreme sports.
+                    The camera has video, photo and timelapse modes, and the low-light
+                    capabilities are exceptional.
+                </p>
+                <div id="opc4">
+                    <p class="Costo">Price: 450$</p>
+                    <p class="Costo">In Stock</p>
+                </div>
+                
+
+                <p class="Pago">ADD TO CARD</p>
+            </div>
+        </div> 
+    </div><br>
+    
+</body>
+</html>
