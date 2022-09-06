@@ -1,0 +1,79 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style>
+        h1{
+            text-align: center;
+        }
+        .Cabecera{
+            display: flex;
+            align-items: flex-end;
+            justify-content: space-between;
+        }
+        .item1 { 
+            grid-area: Z1;
+        }
+        .item2 { grid-area: Z2; }
+        .item3 { grid-area: Z3; }
+        .item4 { grid-area: Z4; }
+        .item5 { grid-area: Z5; }
+        .item6 { grid-area: Z6; }
+        .item7 { grid-area: Z7; }
+        .item8 { grid-area: Z8; }
+        .item9 { grid-area: Z9; }
+        
+        .grid-container {
+          display: grid;
+          grid-template:
+            'Z1 Z1 Z2'
+            'Z1 Z1 Z3'
+            'Z4 Z5 Z5'
+            'Z6 Z5 Z5'
+            'Z7 Z7 Z8'
+            'Z7 Z7 Z9';
+          grid-gap: 10px;
+          background-color: #f5f1f1;
+          padding: 10px;
+        }
+        
+        .grid-container > div {
+            background-color: white;
+            text-align: center;
+            padding: 20px 0;
+            font-size: 30px;
+            display: flex;
+            justify-content: center;
+            align-items: center; 
+        }
+
+        @media only screen and (max-width: 600px) {
+            .item1 img,.item2 img,.item3 img,.item4 img,.item5 img,.item6 img,.item7 img,.item8 img,.item9 img{
+                width: 60px;
+                height: 60px;
+            }
+        }
+        </style>
+</head>
+<body bgcolor="#f5f1f1">
+    <div class="Cabecera">
+        <div><b>Oufitter</b></div>
+        <div><img src="https://assets.stickpng.com/thumbs/59cfc4d2d3b1936210a5ddc7.png" alt="" width="15px" height="15px"></div>
+    </div>
+    <h1>EJERCICIO 5</h1>
+    <div class="grid-container">
+        <div class="item1"><img src="https://upload.wikimedia.org/wikipedia/commons/7/7c/Boots_3_by_wax115.jpg" alt="" width="180" height="180"></div>
+        <div class="item2"><img src="https://i.pinimg.com/originals/02/8e/28/028e28563dba1cd3c2486adb5a5f5eb3.jpg" alt="" width="180" height="180"></div>
+        <div class="item3"><img src="https://m.media-amazon.com/images/I/71euN7ciMWL._AC_SY550_.jpg" alt="" width="180" height="180"></div>  
+        <div class="item4"><img src="https://i.pinimg.com/236x/16/b6/39/16b639ee6b1db36bc3a8704371ee8b3b.jpg" alt="" width="180" height="180"></div>
+        <div class="item5"><img src="https://i.linio.com/p/05f4abb8f64908348af3db99fa662bec-product.jpg" alt="" width="180" height="180"></div>
+        <div class="item6"><img src="https://www.cyamoda.com/on/demandware.static/-/Sites-siteCatalog_cya_mx/default/dw7933dc12/images/NINOS/3035581_A.jpg" alt="" width="180" height="180"></div>
+        <div class="item7"><img src="https://www.bananarepublic.com.pe/media/catalog/product/cache/small_image/240x300/beff4985b56e3afdbeabfc89641a4582/b/r/br512366_b01_1.jpg" alt="" width="180" height="180"></div>  
+        <div class="item8"><img src="https://http2.mlstatic.com/D_NQ_NP_800624-MPE43837664536_102020-O.jpg" alt="" width="180" height="180"></div>
+        <div class="item9"><img src="https://thumbs.dreamstime.com/b/mochila-roja-que-se-coloca-en-el-fondo-blanco-33506402.jpg" alt="" width="180" height="180"></div>
+      </div>
+</body>
+</html>

@@ -1,0 +1,87 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style>
+        .contenedor{
+            display:flex;
+            flex-direction:row;
+            flex-wrap:wrap;
+            justify-content:space-around;
+        }
+        .Cabecera{
+            color: black;
+            text-align: center;
+            font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+            font-size:large;
+        }
+        @media only screen and (max-width: 600px) {
+            .img1 > img{
+                width: 100px;
+                height: 44px;
+            }
+            .img2 > img{
+                width: 100px;
+                height: 67px;
+            }
+            .img3 > img{
+                width: 100px;
+                height: 56px;
+            }
+            .img4 > img{
+                width: 100px;
+                height: 100px;
+            }
+            .img5 > img{
+                width: 100px;
+                height: 124px;
+            }
+            .img6 > img{
+                width: 100px;
+                height: 46px;
+            }
+        }
+
+    </style>
+</head>
+<body>
+    <div class="Cabecera">
+        <h1>Pagina de logos</h1>
+        <p>Si se maximiza o minimiza la pagina las imagenes al tener el flexbox activado se van a comodando al tamaño de la pagina con respecto de las imagenes,
+            es decir la calidad de las imagenes no se pierde ni se cruzan
+        </p> 
+        <p>
+            NOTA: esta pag ya cuenta con RWD 
+        </p>
+        <br>
+    </div>
+    <div class="contenedor">
+        <div class="img1">
+            <img src="https://upload.wikimedia.org/wikipedia/commons/thumb/9/98/Logos.svg/1200px-Logos.svg.png" alt="" width="250" height="111">
+        </div>
+        <div class="img2">
+            <img src="https://upload.wikimedia.org/wikipedia/commons/thumb/2/20/Adidas_Logo.svg/2560px-Adidas_Logo.svg.png" alt="" width="250" height="168">
+        </div>
+        <div class="img3">
+            <img src="https://1000marcas.net/wp-content/uploads/2019/12/logo-Chanel.png" alt="" width="250" height="141">
+        </div>
+        
+        <div class="img4">
+            <img src="https://images.vexels.com/media/users/3/140171/isolated/preview/8d077b26a96a8a649a285dcd99bb97dc-icono-de-goma-de-facebook.png" alt="" width="250" height="250">
+        </div>
+        
+        <div class="img5">
+            <img src="https://blog.hubspot.es/hs-fs/hubfs/ES%20Blog%20images/Los%2015%20logos%20m%C3%A1s%20creativos%20e%20inspiradores%20del%20mundo/logo_famoso_pringles.png?width=650&name=logo_famoso_pringles.png" alt="" width="250" height="310">
+        </div>
+        
+        <div class="img6">
+            <img src="https://www.jimdo.com/static/e6c01f59bd204c1255fe110264c4b9e8/1072c/logo-brand-7-es.png" alt="" width="250" height="114">
+        </div>
+        
+    </div>
+    
+</body>
+</html>

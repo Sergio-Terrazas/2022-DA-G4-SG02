@@ -1,0 +1,179 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style>
+
+        .item1 { grid-area: Z1;}
+        .item2 { grid-area: Z2; }
+        .item3 { grid-area: Z3; }
+        .item4 { grid-area: Z4; }
+        .item5 { grid-area: Z5; }
+        .item6 { grid-area: Z6; }
+        .item7 { grid-area: Z7; }
+        .item8 { grid-area: Z8; }
+        
+        .grid-container {
+          display: grid;
+          grid-template:
+            'Z1 Z2 Z3 Z3'
+            'Z4 Z5 Z5 Z6'
+            'Z7 Z8 Z8 Z6';
+          grid-gap: 10px;
+          background-color: white;
+          padding: 10px;
+          justify-content: center;
+        }
+        
+        .grid-container > div {
+            padding: auto auto;
+            display: flex;
+            justify-content: center;
+        }
+
+        .item1{
+            display: flex;
+            flex-direction:column;
+            text-align: left;
+            margin: auto 1em 0 20px;
+        }
+        .item3,.item4,.item5,.item6,.item7,.item8 {
+            display: flex;
+            flex-direction:column;
+            text-align: center;
+        }
+
+        .item3{
+            background-color:#f7f8fa;
+            font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+        }
+        .item4{
+            color: white;
+            background-color:#EF5539;
+            font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+        }
+        .item5{
+            background-color:white;
+            font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+        }
+        .item6{
+            color: white;
+            background-color:#8F73C0;
+            font-family:Arial, Helvetica, sans-serif
+        }
+        .item7{
+            background-color:#F7F8FA;
+            font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+        }
+        .item8{
+            color: white;
+            background-color:#93B7B7;
+            font-family:'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+        }
+        a{
+            color: #7bc4ba;
+        }
+        #boto{
+            border-radius:50px 50px 50px 50px ;
+            background-color: yellow;
+            color: black;
+            border: 5px solid yellow;
+        }
+        #bot{
+            display: flex;
+            justify-content: center;
+        }
+        button{
+            display: flex;
+            flex-direction:row;
+            text-align: left;
+            background-color: orange;
+            color: white;
+            border: orange;
+        }
+        #B1{
+            display: flex;
+            flex-direction:row;
+            margin: 12px 15px 0 25px;
+        }
+        @media only screen and (max-width: 600px) {
+            .grid-container {
+                display: grid;
+                grid-template:
+                    'Z1 Z2'
+                    'Z3 Z3'
+                    'Z4 Z6'
+                    'Z7 Z6'
+                    'Z5 Z5'
+                    'Z8 Z8';
+                grid-gap: 0px;
+                background-color: white;
+                padding: 0px;
+                justify-content: center;
+            }   
+            .grid-container > div {
+                padding: 0px 0px;
+                display: flex;
+                justify-content: center;
+            }
+        }
+        </style>
+</head>
+<body bgcolor="#f5f1f1">
+    <div class="grid-container">
+        <div class="item1">
+            <p >IPHONE 5S</p>
+            <h1>3D Touch, 12MP photo, 4K video, One powerful phone</h1>
+            <p>Learn more or visit an Apple Store today</p>
+        </div>
+        <div class="item2"><div class="Imagen"><img src="https://images-wixmp-ed30a86b8c4ca887773594c2.wixmp.com/f/b3aebeed-f27f-4500-9176-98982eb2fa94/dcpzcwg-675ecfe4-c409-430d-a038-60ecc292da27.png/v1/fill/w_720,h_941,strp/plantilla_celular__smartphone__png_cartoon_gratis_by_ilsonmaster_dcpzcwg-fullview.png?token=eyJ0eXAiOiJKV1QiLCJhbGciOiJIUzI1NiJ9.eyJzdWIiOiJ1cm46YXBwOjdlMGQxODg5ODIyNjQzNzNhNWYwZDQxNWVhMGQyNmUwIiwiaXNzIjoidXJuOmFwcDo3ZTBkMTg4OTgyMjY0MzczYTVmMGQ0MTVlYTBkMjZlMCIsIm9iaiI6W1t7ImhlaWdodCI6Ijw9OTQxIiwicGF0aCI6IlwvZlwvYjNhZWJlZWQtZjI3Zi00NTAwLTkxNzYtOTg5ODJlYjJmYTk0XC9kY3B6Y3dnLTY3NWVjZmU0LWM0MDktNDMwZC1hMDM4LTYwZWNjMjkyZGEyNy5wbmciLCJ3aWR0aCI6Ijw9NzIwIn1dXSwiYXVkIjpbInVybjpzZXJ2aWNlOmltYWdlLm9wZXJhdGlvbnMiXX0.iy40QKUdkhfoGTSerw1jngXlmvDppMJ0LfkxKXExJ10" alt="" width="190" height="250"></div></div>
+        <div class="item3">
+            <p>LEARN MORE</p>
+            <h1>How to Use Rotary Evaporator in Chemical Labs</h1>
+            <a href="">Download</a>
+        </div>  
+        <div class="item4">
+            <div class="Imagen">
+                <img src="https://upload.wikimedia.org/wikipedia/commons/thumb/5/5a/Computer_keyboard_ES_layout.svg/1200px-Computer_keyboard_ES_layout.svg.png" alt="" width="180" height="120" >
+            </div>
+            <h2>Our Brand New Keyboard</h2>
+            <a href="">LEARN ></a>
+        </div>
+        <div class="item5">
+            <p>IMAC.RETINA</p>
+            <h2>Hardly a month passes these days where</h2>
+            <div class="Imagen">
+               <img src="https://upload.wikimedia.org/wikipedia/commons/thumb/e/e3/Macintosh_128k_transparency.png/250px-Macintosh_128k_transparency.png" alt="" width="180" height="180">
+            </div>
+             </div>
+        <div class="item6">
+            <h3>POPULAR</h3>
+            <div class="Imagen">
+               <img src="https://creazilla-store.fra1.digitaloceanspaces.com/emojis/49804/floppy-disk-emoji-clipart-md.png" alt="" width="240" height="240"> 
+            </div>
+            <h4>MEET</h4>
+            <h1>iCloud</h1>
+            <p>With iCloud, you can store files and data in the cloud so you can access them on all your devices. You see the same information everywhere.</p>
+            <div id="bot"><p id="boto">LEARN MORE</p></div>
+        </div>
+        <div class="item7">
+            <div class="Imagen">
+               <img src="https://thumbs.dreamstime.com/b/control-de-dibujos-animados-videojuegos-objeto-juguete-para-ni%C3%B1os-peque%C3%B1os-jugar-un-icono-estilo-plano-reproducir-imagen-192535568.jpg" alt="" width="180" height="180"> 
+            </div>
+            <h2>Games ourpasion</h2>
+            <a href="">LEARN ></a>
+        </div>  
+        <div class="item8">
+            <div id="B1">
+                <button>Visitar Pagina</button>
+            </div>
+            <h2><b>Much MuchBetter Experience</b></h2>
+            <div class="Imagen">
+                        <img src="https://images.vexels.com/media/users/3/158669/isolated/preview/8715c32a3226480a53ddbbc08e7f83b8-ilustraci-n-de-cuaderno-port-til.png" alt="" width="180" height="180"></div>
+            </div>
+     </div>
+</body>
+</html>
