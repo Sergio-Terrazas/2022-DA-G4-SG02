@@ -1,0 +1,11 @@
+.Carreras p {
+  text-align: justify;
+  margin: auto 15px;
+}
+
+button {
+  margin: 5px;
+  border: 3px solid rgb(224, 213, 213);
+  color: white;
+  background-color: rgb(212, 199, 199);
+}/*# sourceMappingURL=importarSCSS_04.css.map */

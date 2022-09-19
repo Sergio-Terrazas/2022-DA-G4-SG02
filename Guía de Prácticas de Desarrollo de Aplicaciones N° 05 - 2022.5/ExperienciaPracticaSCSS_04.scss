@@ -1,0 +1,33 @@
+$colorBlack : black;
+$colorWhite : white;
+$centrar: center;
+$tamanio : 20px;
+$solido : solid;
+$tipodeletra : 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+
+@import "importarSCSS_04";
+.title {
+    background-color: $colorBlack;
+    color: $colorWhite;
+    text-align: $centrar;
+    border: $tamanio $solido $colorBlack;
+}
+
+.Carreras{
+    background-color: rgb(239, 239, 247);
+    display:flex;
+    flex-direction: row;
+    justify-content: $centrar;
+}
+
+.Carreras {
+    div{
+        font-family: $tipodeletra;
+        margin: $tamanio;
+        text-align: $centrar;
+        background-color: white;
+        border: 3px $solido rgb(223, 221, 221);
+        width: 400px;
+        height: 320px;
+    }
+}
