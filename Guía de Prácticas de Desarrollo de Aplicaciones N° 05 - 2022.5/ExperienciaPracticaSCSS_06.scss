@@ -1,0 +1,33 @@
+@mixin solido($tamanio, $color) {
+    border: $tamanio solid $color;
+    
+}
+@function cuadrado($nume){
+    @return $nume * $nume;
+}
+
+.title {
+    background-color: black;
+    color: white;
+    text-align: center;
+    @include solido(20px, solid)
+}
+
+.Carreras {
+    div {
+        font-family: "Lucida Sans", "Lucida Sans Regular", "Lucida Grande", "Lucida Sans Unicode", Geneva, Verdana, sans-serif;
+        margin: 20px;
+        text-align: center;
+        background-color: white;
+        @include solido(3px,rgb(223, 221, 221));
+        width: cuadrado(20)+#{px};
+        height: 320px;
+    }
+}
+
+button {
+    margin: 5px;
+    @include solido(3px,rgb(224, 213, 213) );
+    color: white;
+    background-color: rgb(212, 199, 199);
+}

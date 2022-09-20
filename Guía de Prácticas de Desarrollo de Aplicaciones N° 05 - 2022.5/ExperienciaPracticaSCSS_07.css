@@ -1,0 +1,31 @@
+#opc1 {
+  display: flex;
+  align-items: flex-end;
+  justify-content: space-between;
+  width: 320px;
+  height: 80px;
+}
+
+#opc2 {
+  display: flex;
+  align-items: flex-end;
+  justify-content: space-between;
+  width: 320px;
+  height: 55px;
+}
+
+#opc3 {
+  display: flex;
+  align-items: flex-end;
+  justify-content: space-between;
+  width: 320px;
+  height: 30px;
+}
+
+#opc4 {
+  display: flex;
+  align-items: flex-end;
+  justify-content: space-between;
+  width: 320px;
+  height: 80px;
+}/*# sourceMappingURL=ExperienciaPracticaSCSS_07.css.map */

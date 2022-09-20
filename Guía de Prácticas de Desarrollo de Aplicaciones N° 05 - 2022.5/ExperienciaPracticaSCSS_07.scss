@@ -1,0 +1,32 @@
+
+@mixin widthANDheight($value) {
+    @if($value == 1){
+        width: 320px;
+        height: 80px;
+    }
+    @else if($value == 2){
+        width: 320px;
+        height: 55px;
+    }
+    @else if($value == 3){
+        width: 320px;
+        height: 30px;
+    }
+    @else if($value == 4){
+        width: 320px;
+        height: 80px;
+    }
+    
+}
+
+$sizes: 1,2,3,4;
+
+@each $size in $sizes {
+    #opc#{$size}{
+        display: flex;
+        align-items: flex-end;
+        justify-content: space-between;
+        @include widthANDheight($size);
+    }
+    
+}
