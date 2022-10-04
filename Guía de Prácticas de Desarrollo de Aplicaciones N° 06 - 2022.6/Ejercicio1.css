@@ -1,0 +1,65 @@
+#Cuerpo{
+    background: linear-gradient(0deg, #ff6a00 0%, #ee0979 100%);
+    color: white;
+}
+#Cuerpo >h1{
+    text-align: center;
+}
+.Cabecera{
+    display: flex;
+    flex-direction: row;
+    background-color: rgba(238, 24, 24, 0.793);
+    justify-content: center;
+    color: white;
+    height: 40px;
+
+}
+
+.Cabecera p {
+    width: 300px;
+    text-align: center;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+}
+.titulo {
+    text-align: center;
+    height: 30px;
+    margin: 20px;
+}
+
+.Contenido {
+    justify-content: center;
+    display: flex;
+    flex-wrap: wrap;
+
+    
+}
+.Contenido div{
+    text-align: center;
+    width: 360px;
+    height: 425px;
+    margin: 20px 20px;
+}
+.Contenido p {
+    margin: 10px 15px;
+}
+.Pago{
+    background-color: rgb(26, 163, 163);
+    border: 10px solid rgb(26, 163, 163);
+}
+.Costo {
+    display: flex;
+    justify-content: space-around;
+    width: 80px;
+    height: 15px;
+    border-radius:50px 50px 50px 50px ;
+    background-color: rgb(231, 221, 221);
+    border: 3px solid rgb(231, 221, 221);
+}
+#opc1 {
+    display: flex;
+    align-items: flex-end;
+    justify-content: space-between;
+    width: 320px;
+    height: 80px;
+}
+

@@ -1,0 +1,25 @@
+#Cuerpo{
+    background: linear-gradient(0deg, #ff6a00 0%, #ee0979 100%);
+}
+.text{
+    text-align: center;
+    color:aquamarine;
+}
+
+button{
+    font-size: 25px;
+    width: 150px;
+    height: 150px;
+    border: 10px solid  #ee0979 ;
+}
+.tipo{
+    font-size: 20px;
+    width: 150px;
+    height: 80px;
+    border: 5px solid  #c64b4b ;
+}
+.Calcular{
+    display: flex;
+    flex-direction: row;
+    justify-content:space-around;
+}
