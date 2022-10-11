@@ -1,0 +1,21 @@
+
+button{
+    background-color: rgb(226, 129, 77);
+    font-size: 25px;
+    color: rgb(234, 227, 227);
+    border-radius: 10px;
+    border: 2px solid black;
+
+    cursor: pointer;
+}
+.Estudiante{
+    display: flex;
+    flex-direction: column;
+}
+
+
+.Contenido{
+    justify-content: center;
+    text-align: center;
+    width: 30em;
+}

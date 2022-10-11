@@ -1,0 +1,14 @@
+
+button{
+    background-color: aqua;
+    font-size: 25px;
+    color: rgb(176, 121, 121);
+    border-radius: 15px;
+    border: 10px solid #282c34;
+
+    cursor: pointer;
+}
+.Estudiante{
+    display: flex;
+    flex-direction: column;
+}
