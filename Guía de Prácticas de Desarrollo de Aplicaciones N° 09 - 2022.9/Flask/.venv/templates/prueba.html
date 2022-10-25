@@ -1,0 +1,20 @@
+<html>
+
+<head>
+    {% if titulo %}
+    <title>{{ titulo }} - Blog</title>
+    {% else %}
+    <title>Blog</title>
+    {% endif %}
+</head>
+
+<body>
+    <h1>¡Hola, {{ usuario.nombre }}!</h1>
+    {% for pub in pubs %}
+    <div>
+        <p>{{ pub.autor.usuario }} Twitteó: <b>{{ pub.pub }}</b></p>
+    </div>
+    {% endfor %}
+</body>
+
+</html>
