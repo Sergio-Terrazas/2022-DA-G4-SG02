@@ -1,0 +1,49 @@
+<head>
+    <style>
+        #Cuerpo {
+            background-color: rgb(217, 217, 217);
+        }
+    </style>
+</head>
+
+<body id="Cuerpo">
+    <h1>Registro</h1>
+
+    <form action="addrecord/" method="post">
+        {% csrf_token %}
+        Nombre:<br>
+        <input name="nombre">
+        <br><br>
+
+        Direccion:<br>
+        <input name="direccion">
+        <br><br>
+
+        Correo:<br>
+        <input name="correo">
+        <br><br>
+
+        contracena:<br>
+        <input name="contracena">
+        <br><br>
+
+        Fecha Nacimiento: (yy-mm-dd)<br>
+        <input name="date">
+        <br><br>
+        Sexo<br>
+        <label><input type="checkbox" name="hombre">hombre</label><br>
+        <label><input type="checkbox" name="mujer">mujer</label><br><br>
+        Elige los temas de interes<br>
+        <label><input type="checkbox" name="ficcion">ficcion</label><br>
+        <label><input type="checkbox" name="terror">terror</label><br>
+        <label><input type="checkbox" name="accion">accion</label><br>
+        <label><input type="checkbox" name="comedia">comedia</label><br>
+        <label><input type="checkbox" name="suspenso">suspenso</label><br>
+
+        Aficion:<br>
+        <input name="aficion">
+        <br><br>
+
+        <input type="submit" value="Evaluar">
+    </form>
+</body>

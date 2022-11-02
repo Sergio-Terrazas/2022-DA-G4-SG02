@@ -1,0 +1,22 @@
+<h1>Datos</h1>
+
+<form action="updaterecord/{{ mymember.id }}" method="post">
+    {% csrf_token %}
+    First Name: 
+    <h name="first">{{ mymember.firstname }}</h>
+    <br><br>
+
+    Last Name:
+    <h name="last" >{{ mymember.lastname }}</h>
+    <br><br>
+
+    Fecha Nacimiento: 
+    <h name="date" >{{ mymember.fechanacimiento }}</h>
+    <br><br>
+
+    Monto:<br>
+    <h name="int"> {{ mymember.monto }}</h>
+    <br><br>
+    <input type="submit" value="Atras">
+
+</form>

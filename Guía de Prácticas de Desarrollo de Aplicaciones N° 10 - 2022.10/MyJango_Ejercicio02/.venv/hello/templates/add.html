@@ -1,0 +1,23 @@
+<head>
+    <style>
+        #Cuerpo {
+            background-color: rgb(251, 184, 184);
+        }
+    </style>
+</head>
+
+<body id="Cuerpo">
+    <h1>Matriz</h1>
+
+    <form action="addrecord/" method="post">
+        {% csrf_token %}
+        Ingrese la Matriz<br>
+        <input name="num1"><input name="num2"><input name="num3">
+        <br>
+        <input name="num4"><input name="num5"><input name="num6">
+        <br>
+        <input name="num7"><input name="num8"><input name="num9">
+        <br>
+        <input type="submit" value="Evaluar">
+    </form>
+</body>

@@ -1,0 +1,98 @@
+<head>
+    <style>
+        #Cuerpo {
+            background-color: rgb(217, 217, 217);
+        }
+    </style>
+</head>
+
+<body id="Cuerpo">
+    <h1>Datos</h1>
+
+    <form action="updaterecord/{{ mymember.id }}" method="post">
+        <table border="1">
+            {% csrf_token %}
+            <tr>
+                <td>Nombre:</td>
+                <td>
+                    <h name="nombre">{{ mymember.nombre }}</h>
+                </td>
+            </tr>
+
+
+            <tr>
+                <td>Direccion:</td>
+                <td>
+                    <h name="direccion">{{ mymember.direccion }}</h>
+                </td>
+            </tr>
+
+
+            <tr>
+                <td>Correo:<br></td>
+                <td>
+                    <h name="correo">{{ mymember.correo }}</h>
+                </td>
+
+            </tr>
+            <tr>
+                <td>contracena:<br></td>
+                <td>
+                    <h name="contracena">{{ mymember.contracena }}</h>
+                </td>
+            </tr>
+
+            <tr>
+                <td>Fecha Nacimiento: (yy-mm-dd)<br></td>
+                <td>
+                    <h name="date">{{ mymember.fechanacimiento }}</h>
+                </td>
+
+            </tr>
+
+            <tr>
+                <td>Sexo<br>
+                <td><label>
+                        <h type="checkbox" name="hombre">Hombre -> {{ mymember.hombre }}</h>
+                    </label><br>
+                    <label>
+                        <h type="checkbox" name="mujer">Mujer -> {{ mymember.mujer }}</h>
+                    </label>
+                </td>
+
+            </tr>
+            <tr>
+                <td>Temas de interes<br>
+                <td><label>
+                        <h type="checkbox" name="ficcion">ficcion -> {{ mymember.ficcion }}</h>
+                    </label><br>
+                    <label>
+                        <h type="checkbox" name="terror">terror -> {{ mymember.terror }}</h>
+                    </label><br>
+                    <label>
+                        <h type="checkbox" name="accion">accion -> {{ mymember.accion }}</h>
+                    </label><br>
+                    <label>
+                        <h type="checkbox" name="comedia">comedia -> {{ mymember.comedia }}</h>
+                    </label><br>
+                    <label>
+                        <h type="checkbox" name="suspenso">suspenso -> {{ mymember.suspenso }}</h>
+                    </label><br>
+                </td>
+            </tr>
+            <tr>
+                <td>Aficion:</td>
+                <td>
+                    <h name="aficion">{{ mymember.aficion }}</h>
+                </td>
+
+            </tr>
+            <tr>
+                <td><p>
+                    <a href="discount/">Confirmar datos</a>
+                </p></td>
+            </tr>
+
+        </table>
+    </form>
+</body>

@@ -1,0 +1,49 @@
+<html>
+
+<head>
+    <style>
+        #Cuerpo {
+            background-color: rgb(226, 90, 90);
+        }
+        table {
+            border-collapse: separate;
+            border-spacing: 3px;
+            background: rgb(244, 36, 36) ;
+            color: #fff;
+        }
+
+        td,th {
+            background:rgb(226, 90, 90);
+            color: #000;
+        }
+        h1{
+            text-align: center;
+        }
+
+    </style>
+</head>
+
+<body id="Cuerpo">
+    <div id="n1">
+        <h1>PASAJES</h1>
+        <table border="1">
+            {% for x in mymembers %}
+            <tr>
+                <td>{{ x.id }}</td>
+                <td>{{ x.firstname }}</td>
+                <td>{{ x.lastname }}</td>
+                <td>{{ x.fechanacimiento }}</td>
+                <td>{{ x.monto }}</td>
+                <td><a href="delete/{{ x.id }}">delete</a></td>
+                <td><a href="update/{{ x.id }}">Ver Pasaje</a></td>
+            </tr>
+            {% endfor %}
+        </table>
+
+        <h2>
+            <a href="add/">Procesar Pasaje</a>
+        </h2>
+    </div>
+</body>
+
+</html>

@@ -1,0 +1,31 @@
+<head>
+    <style>
+        #Cuerpo {
+            background-color: rgb(226, 90, 90);
+        }
+    </style>
+</head>
+
+<body id="Cuerpo">
+    <h1>Add</h1>
+
+    <form action="addrecord/" method="post">
+        {% csrf_token %}
+        First Name:<br>
+        <input name="first">
+        <br><br>
+
+        Last Name:<br>
+        <input name="last">
+        <br><br>
+
+        Fecha Nacimiento: (yy-mm-dd)<br>
+        <input name="date">
+        <br><br>
+
+        Monto:<br>
+        <input name="int">
+        <br><br>
+        <input type="submit" value="Submit">
+    </form>
+</body>

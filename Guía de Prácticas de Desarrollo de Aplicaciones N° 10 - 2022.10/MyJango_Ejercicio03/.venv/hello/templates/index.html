@@ -1,0 +1,46 @@
+<html>
+
+<head>
+    <style>
+        #Cuerpo {
+            background-color: rgb(217, 217, 217);
+        }
+        table {
+            border-collapse: separate;
+            border-spacing: 3px;
+            background: rgb(244, 36, 36) url("gradient.gif") bottom left repeat-x;
+            color: #fff;
+        }
+
+        td,th {
+            background:rgb(217, 217, 217);
+            color: #000;
+        }
+        h1{
+            text-align: center;
+        }
+
+    </style>
+</head>
+
+<body id="Cuerpo">
+    <div id="n1">
+        <h1>Registro</h1>
+        <table border="1">
+            {% for x in mymembers %}
+            <tr>
+                <td>{{ x.id }}</td>
+                <td>Registro {{ x.id }}</td>
+                <td><a href="delete/{{ x.id }}">delete</a></td>
+                <td><a href="update/{{ x.id }}">VER</a></td>
+            </tr>
+            {% endfor %}
+        </table>
+
+        <h2>
+            <a href="add/">Realizar Registro</a>
+        </h2>
+    </div>
+</body>
+
+</html>

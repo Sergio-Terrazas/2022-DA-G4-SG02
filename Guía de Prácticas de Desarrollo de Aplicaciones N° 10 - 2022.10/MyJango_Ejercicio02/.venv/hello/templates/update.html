@@ -1,0 +1,55 @@
+<head>
+    <style>
+        #Cuerpo {
+            background-color: rgb(251, 184, 184);
+        }
+    </style>
+</head>
+
+<body id="Cuerpo">
+    <h1>Matriz</h1>
+
+    <form action="updaterecord/{{ mymember.id }}" method="post">
+        {% csrf_token %}
+        la Matriz<br>
+        <table border="1">
+            <tr>
+                <td>
+                    <h name="num1">{{ mymember.num1 }}</h>
+                </td>
+                <td>
+                    <h name="num2">{{ mymember.num2 }}</h>
+                </td>
+                <td>
+                    <h name="num3">{{ mymember.num3 }}</h>
+                </td>
+            </tr>
+            <tr>
+                <td>
+                    <h name="num4">{{ mymember.num4 }}</h>
+                </td>
+                <td>
+                    <h name="num5">{{ mymember.num5 }}</h>
+                </td>
+                <td>
+                    <h name="num6">{{ mymember.num6 }}</h>
+                </td>
+            </tr>
+            <tr>
+                <td>
+                    <h name="num7">{{ mymember.num7 }}</h>
+                </td>
+                <td>
+                    <h name="num8">{{ mymember.num8 }}</h>
+                </td>
+                <td>
+                    <h name="num9">{{ mymember.num9 }}</h>
+                </td>
+            </tr>
+        </table>
+
+        <p>
+            <a href="discount/">Regresar</a>
+        </p>
+    </form>
+</body>
